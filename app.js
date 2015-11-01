@@ -11,5 +11,14 @@ $(document).ready(function() {
 		$(this).addClass('gridChanged')
 	}, function() {
 		/* Stuff to do when the mouse leaves the element */
+		$(this).removeClass('gridSquares')
 	});
+
+	$("#reset").click(function(){
+		$(".gridChanged").addClass('gridSquares').removeClass('gridChanged');
+		console.log("Hi!")
+	});
+
 });
+
+

@@ -2,7 +2,6 @@
 	background-color: white;
 	width: 960px;
 	margin: auto;
-	overflow: auto;
 	border: solid black;
 }
 
@@ -20,5 +19,12 @@
 	display: inline-block;
 	height: 10px;
 	width: 10px;
+	margin: 1px;
 	float: left;
+}
+
+#titleTop {
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 30px;
 }
